@@ -6,7 +6,7 @@
 <body>
 	<p>Ingrese los valores</p>
 	
-	<form name="Converter" action="Converter.php" method="post">
+	<form name="Converter" action="converter.php" method="post">
 		<label for="mililitros">Mililitros a Onzas: </label>
 		<input type="init" id="mililitros" name="mililitros">
 		<br />
@@ -25,7 +25,7 @@
 		
 		<input type="submit" name="Enviar">
 	</form>
-	<a href="/index.php">Regresar</a>
+	<a href="index.html">Regresar</a>
 </body>
 		
 </html>
